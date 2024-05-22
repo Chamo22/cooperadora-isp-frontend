@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+  --eerie-black: #1c2321;
+  --jungle-green: #49a078;
+  --anti-flash-white: #eeeeee;
+  --tropical-indigo: #8b85c1;
+  --periwinkle: #d4cdf4;
+  --celestial-blue: #058ED9;
+  --tiffany-blue: #95D9DA;
+  --timberwolf: #E4DFDA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex ;
+}
+
+.layout-menu{
+  width: 350px;
+  height: 100vh;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: var(--tropical-indigo);
+}
+
+.layout-wrapper{
+  width: 100%;
+  padding: 80px;
+  background-color: var(--periwinkle);
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+} 
+
+.menu-title {
+  font-size: 24px;
+  color: var(--anti-flash-white);
+  font-weight: bold;
+}
+
+.layout-title {
+  font-size: 20;
+  font-weight: bold;
+  color: var(--eerie-black);
+  border-bottom: 1px solid var(--eerie-black);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.page-wrapper{
+  background-color: var(--celestial-blue);
+  padding: 20px;
+  border-radius: 10px ;
+  
+}
+
+.data-table{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--anti-flash-white);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.nuevoAlumno{
+  outline: none;
+}
+
+/* Contenido CSS agregado 30/04/2024 */
+
+.crearAlumno-body{
+  background: url(/cooperadora-isp/imgs/banner-isp.png)
+}
+
+.container {
+  min-width: 400px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* ---------------------------------- */
+
+.subpage-back-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.students-form {
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  
+  label {
+    font-weight: 600;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .form-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
